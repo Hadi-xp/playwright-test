@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "this is a playwright project for test",
   "main": "test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hadi-xp/playwright-test.git"
@@ -16,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/Hadi-xp/playwright-test/issues"
   },
-  "homepage": "https://github.com/Hadi-xp/playwright-test#readme"
+  "homepage": "https://github.com/Hadi-xp/playwright-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  }
 }
